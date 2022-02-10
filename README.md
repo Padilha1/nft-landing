@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# <h1> NFT Landing Page using React Js <h1>
+  <h2> Starting this new Project to enhance my React skills </h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
