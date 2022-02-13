@@ -16,8 +16,8 @@ export default function Home() {
             <img src={niconicoNi2} alt="home"/>
           </div>
           <div className="ellipse-container">
-            <div className="ellipse-purple"></div>
-            <div className="ellipse-orange"></div>
+            <div className="ellipse purple"></div>
+            <div className="ellipse orange"></div>
           </div>
         </div>
       </div>
