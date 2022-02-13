@@ -15,6 +15,63 @@
                 text-transform: uppercase;
                 letter-spacing: 0.1rem;
             }
+            .title{
+                color:var(--accent-color1);
+            }
+            .description{
+                color:var(--accent-color1);
+            }
+            button{
+                color:var(--accent-color1);
+                background-color: var(--background);
+                font-weight: bold;
+                padding: 1rem 2rem;
+                border-radius: 2rem;
+                border: solid 3px transparent;
+                background-image: linear-gradient(
+                    rgba(255,255,255,0),
+                    rgba(255,255,255,0)
+                    ),
+                    linear-gradient(101deg, var(--pink),var(--green));
+                background-origin: border-box;
+                background-clip: content-box, border-box;
+                box-shadow: 2px 1000px 1px var(--background) inset;
+                transition: 0.5s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                    box-shadow: none;
+
+                }
+            }
+        }
+        .image-container{
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            .image{
+                img{
+                    width: 24rem;
+                }
+            }
+            .ellipse-container{
+                .ellipse{
+                    z-index: -1;
+                    position: absolute;
+                    filter: blur(100px);
+                    height: 15rem;
+                    width: 15rem;
+                }
+                .purple{
+                   background-color: var(--purple); 
+                   top: 40%;
+                   right: 40%;
+                }
+                .orange{
+                    background-color: var(--green);
+                    bottom: 40%;
+                    left: 40%;
+                }
+            }
         }
     }
 }
